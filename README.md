@@ -16,10 +16,10 @@ pip install requests
 ```
 
 ### 使用
-首先，将`Extracter`类和所需的库导入Python文件中。用法示例：
+首先，将`Extractor`类和所需的库导入Python文件中。用法示例：
 
 ```python
-from Extracter import Extracter
+from Extractor import Extractor
 
 # 设置想要提取图片的知乎问题页面URL
 url = "https://www.zhihu.com/question/您的问题ID"
@@ -28,7 +28,7 @@ savePath = "图片"
 # 设置最多下载多少图片
 maxNum = 20
 # 调用extractImages方法提取并下载图片
-Extracter.extractImages(url, savePath,maxNum)
+Extractor.extractImages(url, savePath,maxNum)
 ```
 
 ### 参数说明
